@@ -72,13 +72,12 @@
 
    Note that <server_url> and <server_port> share the same meaning as with the HTTP client (see above section "Using the Client").
    
-    ![image](https://github.com/user-attachments/assets/a5f241f1-de59-43d1-a5ee-6209a7779a1f)
+    ![image](https://github.com/user-attachments/assets/6d8127d0-86c2-4b95-9399-5f9253a0a74b)
 
 4. The DOS attacker will now endlessly send HTTP GET requests for TMDG.html. The server will be able to keep up with the HTTP flood for a short moment but will freeze soon after.
 
-    ![image](https://github.com/user-attachments/assets/cb0dd3d0-214f-4ad7-81aa-9118a0cc6459)
+    ![image](https://github.com/user-attachments/assets/82da6eb1-f90a-4e8b-a569-09b5761b48f7)
 
-  
 5. Once the HTTP server is frozen (stops displaying messages), that means the HTTP flood attack is working.
 
 6. In the client's terminal, the steps from the above section "Using the Client" can now be repeated.
