@@ -4,6 +4,7 @@
 1. This project is a self-motivated extension of an HTTP client/server project from my computer networks course (CS 3516).
 2. The HTTP client and server both function on their own, but the goal of this extension (DOS demonstration) was to interrupt this function via HTTP flood and further my understanding of simple network vulnerabilities along the way.
 3. To achieve this, simple_http_client.c has been modified into dos_attacker.c which will cause HTTP flooding with endless HTTP GET requests.
+4. This project is made for educational purposes only. Do NOT use it on anything but your own servers.
 
 ## Getting Started
 1. Download the files from this repository (dos_attacker.c, makefile, simple_http_client.c, simple_http_server.c, and TMDG.html)
@@ -103,3 +104,4 @@
 
 ## Authors
  - Nicholas Golparvar
+ - Matvey Shestopalov (implemented forking logic and run_dos_attack.sh)
